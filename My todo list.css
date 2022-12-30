@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.container {
+    min-height: 110vh;
+}
+
+.heading {
+    text-align: center;
+    font-size: 45px;
+}
+
+.add-element {
+    display: flex;
+    flex-direction: column;
+    margin-left: 28px;
+}
+
+#toDoUserInput {
+    width: 55%;
+    height: 35px;
+    margin: 5px 0 35px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Calibri';
+    font-weight: bold;
+    ;
+}
+
+.btn-element,
+#saveToDoButton {
+    background-color: maroon;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border: 0px;
+    height: 38px;
+    width: 18%;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#saveToDoButton {
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+.btn-element:hover,
+#saveToDoButton:hover {
+    color: skyblue;
+    padding: 2px;
+    height: 37px;
+    width: 17%;
+}
+
+.li-container {
+    list-style-type: none;
+    display: flex;
+    margin: 14px 0;
+    font-weight: bold;
+}
+
+.input-element {
+    height: 22px;
+    width: 22px;
+    margin: 14px 12px 12px 0px;
+}
+
+.label-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    background-color: skyblue;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    border-left: 6px solid black;
+    margin-right: 10px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
